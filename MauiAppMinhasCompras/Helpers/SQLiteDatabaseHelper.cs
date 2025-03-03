@@ -5,7 +5,7 @@ namespace MauiAppMinhasCompras.Helpers
 {
     public class SQLiteDatabaseHelper
     {
-        readonly SQLiteAsyncConnection _conn; //armazena a conexão com o SQLite
+        readonly SQLiteAsyncConnection _conn; 
 
         public SQLiteDatabaseHelper(string path) 
         { 
