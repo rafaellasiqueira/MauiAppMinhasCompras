@@ -32,7 +32,7 @@ namespace MauiAppMinhasCompras.Models
             {
                 if (value <= 0)
                 {
-                    throw new Exception("Por favor, digite valores positivos");
+                    throw new Exception("Por favor, digite algum valor e que seja positivo");
                 }
 
                 _quantidade = value;
@@ -46,7 +46,7 @@ namespace MauiAppMinhasCompras.Models
             {
                 if (value <= 0)
                 {
-                    throw new Exception("Por favor, digite valores positivos");
+                    throw new Exception("Por favor, digite algum valor e que seja positivo");
                 }
 
                 _preco = value;
